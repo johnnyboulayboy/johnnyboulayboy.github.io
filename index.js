@@ -21,12 +21,27 @@ function clicks() {
     } else if (click == 100) {
         alert("Oh come on dude. Why are you even doing this.")
     } else if (click == 150) {
-        alert("Stop or at 200 I remove the button\nYou button clicker weirdo.")
+        alert("Alright you leave me no choise, continue and I will delete that button")
     } else if (click == 200) {
         document.getElementById("BUTTon").remove()
-        alert("OH LOOK THE BUTTON MISTERIOUSLY DISAPEARED")
+        alert("Told ya I was going to delete that button bud.")
     } else if (click == 201) {
         alert("Bro what.")
+    } else if (click == 250) {
+        alert("What's so special about this button?")
+        alert("Because come on, nobody is spamming this for nothing")
+    } else if (click == 500) {
+        alert("Congrats, that's 500 clicks you got there")
+        alert("Are you happy now?")
+    } else if (click == 501) {
+        alert("Alright you're not.")
+    } else if (click == 1000) {
+        alert("Congrats that's 1000 clicks you got there, you are surely thinking there is more after that but nope, now I will stuck the number on 100, have a nice day :)")
+    } else if (click == 1001) {
+        alert("nope")
+        click = 1000
+    } else if (click == 1002) {
+        alert("How. Just. How.")
     }
 
 }

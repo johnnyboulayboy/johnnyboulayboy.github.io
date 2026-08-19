@@ -1,0 +1,7 @@
+body{
+    cursor: default;
+    text-align: center
+}
+button, a{
+    cursor: pointer;
+}
